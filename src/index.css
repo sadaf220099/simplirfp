@@ -1,0 +1,55 @@
+
+@import "tailwindcss";
+
+.btn-primary{
+  background-color: #CDE4DC;
+  border-radius: 47px;
+  color: black;
+  height: 68px;
+  cursor: pointer;
+}
+ .btn-secondary{
+  border: 2px solid;
+  height: 43px;
+  border-radius: 21.5px;
+  color: white;
+  border-color:#CDE4DC;
+  cursor: pointer;
+ }
+ .btn-tertiary{
+  border-radius: 47px; 
+  height:68px;
+  color: white;
+  background: linear-gradient(90deg, #1F2D5C 0%, #32C4C0 100%);
+cursor: pointer;
+;
+ }
+ .btn-hover{
+   background: linear-gradient(90deg, #202C59 0%, #112E9B 100%);
+   border-radius: 5.35px;
+   height: 38.32px;
+   color:white;
+   cursor: pointer;
+;
+ }
+/* .bg-color {
+  background: linear-gradient(90deg, rgba(31, 45, 92, 0.8) 0%, rgba(50, 196, 192, 0.8) 100%);
+} */
+.bg-image {
+  width: 100%;
+  height: 400px;
+  background-image: url('/assets/images/mask1.png'); /* Starts with slash */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ant-switch-inner{
+ background: linear-gradient(180deg, #32C4C0 0%, #1F2D5C 99.09%);
+;
+}
+
+
+.bg-footer{
+  background: linear-gradient(180deg, #042822 0%, #1C1C1C 100%);
+
+}
