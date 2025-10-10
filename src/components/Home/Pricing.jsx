@@ -27,13 +27,13 @@ const PricingCard = ({
         isGradientCard
           ? {
               background: "linear-gradient(180deg, #32C4C0 0%, #1F2D5C 99.09%)",
-              transform: "translateY(-30px)", // 👈 lifts upward
-              zIndex: 10, // brings above others
+              transform: "translateY(-30px)",
+              zIndex: 10, 
             }
           : {}
       }
     >
-      {/* Tag */}
+    
       {tag && (
         <span
           className={`absolute top-4 right-4 ${
@@ -46,7 +46,7 @@ const PricingCard = ({
         </span>
       )}
 
-      {/* Card content */}
+      
       <div>
         <div>
           <h3
@@ -121,7 +121,7 @@ const PricingCard = ({
         </ul>
       </div>
 
-      {/* Button */}
+     
       <div className="flex justify-center mt-6">
         <Button
           text={buttonText || "Try for Free"}
@@ -196,7 +196,7 @@ function Pricing() {
   ]
 
   return (
-    <div className="bg-white p-5 w-full overflow-visible"> {/* 👈 allow card lift */}
+    <div className="bg-white p-5 w-full overflow-visible"> 
       <div className="text-center">
         <h1 className="font-bold text-[#170F49] text-3xl mb-2">
           Choose the best pricing
@@ -208,7 +208,7 @@ function Pricing() {
         </p>
       </div>
 
-      {/* Toggle Switch */}
+      
       <div className="flex justify-center items-center gap-6 mx-auto p-5">
         <h2>Monthly</h2>
         <Switch />

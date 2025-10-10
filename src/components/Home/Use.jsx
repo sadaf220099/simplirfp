@@ -8,6 +8,7 @@ import Tribe from '../../assets/images/tribe.png';
 import logo4 from '../../assets/images/logo4.png';
 import logo5 from '../../assets/images/logo5.png';
 import logo6 from '../../assets/images/logo6.png';
+import Banner from '../../assets/vedios/Banner.mp4';
 
 function Use() {
   return (
@@ -25,7 +26,16 @@ function Use() {
 
       <div className="flex justify-center items-center mt-8 sm:mt-10">
         <div className="relative inline-block w-full max-w-[1040px]">
-          <img src={use} alt="use" className="w-full h-auto rounded-xl" />
+          {/* <img src={use} alt="use" className="w-full h-auto rounded-xl" /> */}
+          <video
+                  className=" w-full h-auto object-cover"
+                  src={Banner}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                />
+          
           <img
             src={play}
             alt="play"
