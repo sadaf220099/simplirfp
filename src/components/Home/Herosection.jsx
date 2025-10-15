@@ -6,6 +6,7 @@ import Input from './Input'
 
 function Herosection() {
   return (
+    <section >
     <div className="relative w-full overflow-hidden ">
      
       <video
@@ -17,19 +18,18 @@ function Herosection() {
         playsInline
       />
 
-     
       <div className="absolute inset-0 bg-black/40"></div>
 
      
       <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 mx-auto items-center text-white min-h-[600px] px-6 sm:px-10 lg:px-20 py-16">
       
-        <div className="space-y-6 text-center lg:text-left">
-          <h1 className="font-bold text-3xl sm:text-4xl lg:text-5xl leading-snug">
-            Canada&apos;s #1 Source <br />
-            of Business <br />
+        <div className="space-y-4 text-center lg:text-left">
+          <h1 className="font-semibold max-w-md tracking-[0%] leading-tighter text-3xl sm:text-4xl lg:text-5xl ">
+            Canada&apos;s #1 Source  
+            of Business 
             Opportunities
           </h1>
-          <h2 className="text-base sm:text-lg lg:text-xl text-gray-200 max-w-md mx-auto lg:mx-0">
+          <h2 className="text-base  text-gray-200 max-w-md mx-auto lg:mx-0">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
           </h2>
           <div className="flex justify-center lg:justify-start">
@@ -46,11 +46,12 @@ function Herosection() {
           <img
             src={image1}
             alt="Hero Illustration"
-            className="w-[80%] sm:w-[70%] lg:w-[85%] max-w-[500px] h-auto object-contain"
+            className=""
           />
         </div>
       </div>
     </div>
+    </section>
   )
 }
 

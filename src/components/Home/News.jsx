@@ -24,6 +24,7 @@ export const News = () => {
   ];
 
   return (
+    <section>
     <div className="bg-white w-full h-auto mb-2 overflow-hidden px-4 sm:px-10 md:px-20 py-10">
       
       <h1 className="font-bold text-black text-center text-xl sm:text-2xl md:text-3xl px-2">
@@ -54,6 +55,7 @@ export const News = () => {
         ))}
       </div>
     </div>
+    </section>
   )
 }
 

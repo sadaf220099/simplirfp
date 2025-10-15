@@ -4,27 +4,28 @@ import Button from './Button'
 
 function Ai() {
   return (
-    <div className="bg-white cursor-pointer w-full overflow-hidden py-12 px-6 sm:px-10 lg:px-20">
+    <section>
+    <div className="bg-white w-full overflow-hidden py-12 px-6 sm:px-10 lg:px-20">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
         
         {/* Left Section - Image */}
-        <div className="flex justify-center lg:justify-start w-full lg:w-1/2">
+        <div className="flex justify-center  w-full lg:w-1/2">
           <img
             src={AI}
             alt="Artificial Intelligence Illustration"
-            className="w-[80%] sm:w-[70%] lg:w-[90%] h-auto object-contain"
+            // className="w-[80%] sm:w-[70%] lg:w-[90%] h-auto object-contain"
           />
         </div>
 
         {/* Right Section - Text Content */}
         <div className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
-          <h1 className="font-bold text-2xl sm:text-3xl lg:text-4xl text-black leading-snug">
+          <h1 className="font-semibold tracking-[0%] text-3xl sm:text-3xl lg:text-4xl text-black leading-tighter">
             Make your business <br className="hidden sm:block" />
             comfortable with <br className="hidden sm:block" />
             Artificial Intelligence
           </h1>
 
-          <h2 className="text-gray-600 text-sm sm:text-base lg:text-lg leading-relaxed">
+          <h2 className="text-gray-600 text-sm max-w-md tracking-[0%] sm:text-base lg:text-lg leading-tighter">
             Lorem ipsum dolor sit amet consectetur. A vitae posuere libero
             condimentum. Ipsum pulvinar pretium lacus sed volutpat. Montes sit
             odio amet lacus viverra. Tellus rhoncus tristique arcu dolor.
@@ -39,6 +40,7 @@ function Ai() {
         </div>
       </div>
     </div>
+    </section>
   )
 }
 

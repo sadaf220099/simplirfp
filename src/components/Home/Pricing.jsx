@@ -3,6 +3,8 @@ import { Switch } from 'antd'
 import Button from './Button'
 import { Icon } from '@iconify/react'
 import titleIcon from '../../assets/images/titleIcon.png'
+import titleIcon2 from '../../assets/images/titleIcon2.png'
+import titleIcon3 from '../../assets/images/titleIcon3.png'
 
 const PricingCard = ({ 
   title, 
@@ -48,23 +50,31 @@ const PricingCard = ({
 
       
       <div>
-        <div>
-          <h3
-            className={`text-sm font-semibold ${
-              isGradientCard ? "text-white" : "text-gray-500"
-            }`}
-          >
-            {title}
-          </h3>
+        <div className="flex items-center gap-3">
+  <img
+    src={icon}
+    alt="icon"
+    className="w-[72px] h-[72px]"
+  />
+  <div>
+    <h3
+      className={`text-sm font-semibold ${
+        isGradientCard ? "text-white" : "text-gray-500"
+      }`}
+    >
+      {title}
+    </h3>
 
-          <p
-            className={`text-xl mt-1 font-bold ${
-              isGradientCard ? "text-gray-100" : "text-black"
-            }`}
-          >
-            {subtitle}
-          </p>
-        </div>
+    <p
+      className={`text-xl mt-1 font-bold ${
+        isGradientCard ? "text-gray-100" : "text-black"
+      }`}
+    >
+      {subtitle}
+    </p>
+  </div>
+</div>
+
 
         {description && (
           <p
@@ -122,12 +132,15 @@ const PricingCard = ({
       </div>
 
      
-      <div className="flex justify-center mt-6">
-        <Button
-          text={buttonText || "Try for Free"}
-          className="btn-tertiary w-[308px]"
-        />
-      </div>
+     <div className="flex justify-center mt-6">
+  <Button
+    text={buttonText || "Try for Free"}
+    className={` ${
+       isGradientCard ? "!bg-white text-black btn-primary w-[308px]" : "btn-tertiary w-[308px]"
+    }`}
+  />
+</div>
+
     </div>
   )
 }
@@ -137,6 +150,7 @@ function Pricing() {
     {
       title: "For individuals",
       subtitle: "Free",
+      icon: titleIcon,
       description: "Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit. ",
       price: "$99",
       period: "monthly",
@@ -151,6 +165,7 @@ function Pricing() {
     {
       title: "For startups",
       subtitle: "Plus",
+      icon: titleIcon2,
       description: "Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit. ",
       price: "$199",
       period: "monthly",
@@ -165,6 +180,7 @@ function Pricing() {
     {
       title: "For big companies",
       subtitle: "Premium",
+      icon: titleIcon3,
       description: "Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit. ",
       price: "$399",
       period: "monthly",
@@ -181,6 +197,7 @@ function Pricing() {
     {
       title: "For big companies",
       subtitle: "Lifetime",
+      icon: titleIcon3,
       description: "Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit.",
       price: "$399",
       period: "monthly",

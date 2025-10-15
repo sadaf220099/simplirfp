@@ -6,7 +6,18 @@ import Button from './Button';
 import Group21 from '../../assets/images/Group21.png'
 
 function Features() {
+
+  const feature = [
+    "User limit",
+    "Free trial",
+    "Bookmark",
+    "Reminder email",
+    "Automatic billing",
+    "Ability to switch",
+    "Ability to switch"
+  ];
   return (
+    <section>
     <div className="bg-white p-4 sm:p-10 w-full h-auto mb-20 overflow-hidden relative">
      
       <div className="flex justify-center flex-wrap text-center">
@@ -22,16 +33,12 @@ function Features() {
       <div className="flex flex-col cursor-pointer lg:flex-row justify-evenly items-center mt-10 gap-10">
         
         <div className="flex flex-col sm:flex-row items-start">
-          <img src={line1} alt="Line" className="hidden sm:block w-8 sm:w-10" />
-          <div className="p-4 sm:p-8 space-y-3 sm:space-y-6 text-center sm:text-left">
-            <h1 className="font-bold">Sorting of contracts</h1>
-            <h1>User limit</h1>
-            <h1>Free trial</h1>
-            <h1>Bookmark</h1>
-            <h1>Reminder email</h1>
-            <h1>Automatic billing</h1>
-            <h1>Ability to switch</h1>
-            <h1>Ability to switch</h1>
+          <img src={line1} alt="Line" className="hidden sm:block max-h-[600px]" />
+          <div className="p-4 bg-size sm:p-8 space-y-3 mt-5 sm:space-y-6 text-center sm:text-left">
+            <h1 className="font-bold text-[30px]">Sorting of contracts</h1>
+           {feature.map((feature, index) => (
+        <p  className='text-[30px]' key={index}>{feature}</p>
+      ))}
           </div>
         </div>
 
@@ -68,6 +75,7 @@ function Features() {
 </div>
 
     </div>
+    </section>
   );
 }
 

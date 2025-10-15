@@ -6,6 +6,7 @@ import Button from './Button'
 
 function Categories() {
   return (
+    <section>
     <div
       className="relative z-40 w-full overflow-hidden bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${section2})` }}
@@ -31,6 +32,7 @@ function Categories() {
         />
       </div>
     </div>
+    </section>
   )
 }
 

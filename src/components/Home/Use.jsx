@@ -12,14 +12,15 @@ import Banner from '../../assets/vedios/Banner.mp4';
 
 function Use() {
   return (
+    <section>
     <div className="bg-white p-4 sm:p-6 md:p-10 w-full min-h-screen mb-10 overflow-hidden">
    
       <div className="text-center">
         <h1 className="font-bold text-[#1F2D5C] text-2xl sm:text-3xl md:text-4xl px-2">
           How To Use
         </h1>
-        <h1 className="text-[#32C4C0] text-sm sm:text-base md:text-lg mt-2 px-2">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit dolor posuere vel
+        <h1 className="text-[#6F6C90] text-sm sm:text-base md:text-lg mt-2 px-2">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit dolor posuere vel<br/>
           venenatis eu sit massa volutpat.
         </h1>
       </div>
@@ -28,7 +29,7 @@ function Use() {
         <div className="relative inline-block w-full max-w-[1040px]">
           {/* <img src={use} alt="use" className="w-full h-auto rounded-xl" /> */}
           <video
-                  className=" w-full h-auto object-cover"
+                  className=" w-full h-auto object-cover rounded-3xl"
                   src={Banner}
                   autoPlay
                   loop
@@ -72,6 +73,7 @@ function Use() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 
