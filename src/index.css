@@ -47,7 +47,8 @@ animation: fadeUp 1s ease-out forwards;
 
 
 .btn-hover:hover {
-  background: linear-gradient(90deg, #ff0000 0%, #b30000 100%);
+  background: #ff0000;
+  box-shadow: none;
   color: white;
 }
 .bg-gradient {

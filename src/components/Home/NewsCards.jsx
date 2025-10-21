@@ -15,7 +15,7 @@ export const NewsCards = ({ username, userdetail, image, buttonText, Images }) =
                 <img
                     src={Images}
                     alt="overlay"
-                    className="absolute inset-0 w-full h-full object-cover transform -translate-y-full transition-all duration-500 ease-in-out group-hover:translate-y-0"
+                    className="absolute inset-0 w-full p-4 h-full object-cover transform -translate-y-full transition-all duration-500 ease-in-out group-hover:translate-y-0"
                 />
             </div>
             <div className="p-3">
