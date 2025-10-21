@@ -3,23 +3,28 @@ import { NewsCards } from './NewsCards'
 import Frame1 from '../../assets/images/Frame1.png'
 import Frame2 from '../../assets/images/Frame2.png'
 import Frame3 from '../../assets/images/Frame3.png'
-
+import Frame30 from '../../assets/images/Frame30.png'
+import Frame31 from '../../assets/images/Frame31.png'
+import Frame32 from '../../assets/images/Frame32.png'
 export const News = () => {
   const carddata = [
     {
       image: Frame1,
       username: "Technology",
-      userdetail: "The Impact of Technology on the Workplace: How Technology is Changing"
+      userdetail: "The Impact of Technology on the Workplace: How Technology is Changing",
+      Images: Frame30,
     },
     {
       image: Frame2,
       username: "Technology",
-      userdetail: "The Impact of Technology on the Workplace: How Technology is Changing"
+      userdetail: "The Impact of Technology on the Workplace: How Technology is Changing",
+      Images: Frame31,
     },
     {
       image: Frame3,
       username: "Technology",
-      userdetail: "The Impact of Technology on the Workplace: How Technology is Changing"
+      userdetail: "The Impact of Technology on the Workplace: How Technology is Changing",
+      Images: Frame32,
     },
   ];
 
@@ -51,6 +56,7 @@ export const News = () => {
             image={newscard.image}
             username={newscard.username}
             userdetail={newscard.userdetail}
+            Images={newscard.Images}
           />
         ))}
       </div>

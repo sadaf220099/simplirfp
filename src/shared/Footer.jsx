@@ -8,7 +8,6 @@ function Footer() {
      
       <div className='max-w-7xl mx-auto'>
         <img src={logo} alt="Logo" className="mx-auto md:mx-0 mb-4 w-28 md:w-32" />
-
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-10 text-white text-center md:text-left">
           <div className="max-w-sm">
             <h2 className="text-sm leading-relaxed">

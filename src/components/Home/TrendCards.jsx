@@ -1,18 +1,23 @@
 import React from 'react'
 import Button from './Button'
+import { Icon } from '@iconify/react'
 
-export const TrendCards = ({ productname, productdetail, image, button }) => {
+export const TrendCards = ({ productname, productdetail, icon, button }) => {
     return (
-
-        <div className="w-80 mx-auto p-10 mt-24 border-white-[0.4px] bg-[#FFFFFF2E] rounded-2xl shadow-lg ">
-            <h2 className="text-lg font-bold text-center text-[#1F2D5C]">{productname}</h2>
-            <img src={image} className="w-30 h-30 mx-auto p-3" />
-            <p className="text-sm text-[#1F2D5C] text-center px-2 py-3"> {productdetail} </p>
-            <Button className='btn-hover w-[131px] mx-auto ' text={button}/>
+        <div className="w-[446px] h-[317px] p-10 mt-24 border border-white/40 bg-[#FFFFFF2E] rounded-2xl shadow-lg group cursor-pointer">
+            <h2 className="text-xl font-bold text-center text-[#1F2D5C] transition-colors duration-300 group-hover:text-red-600">
+                {productname}
+            </h2>
+            <Icon icon={icon} className="w-30 h-30 mx-auto p-3 transition-transform duration-300 group-hover:text-red-600" />
+            <p className="text-md text-[#1F2D5C] text-center px-2 py-3 transition-colors duration-300 group-hover:text-red-600">
+                {productdetail}
+            </p>
+            <div className="flex justify-center">
+                <Button
+                    className="btn-hover w-[131px] text-[#1F2D5C] transition-colors duration-300 group-hover:text-red-600"
+                    text={button}
+                />
+            </div>
         </div>
-
-
-
-
     )
 }

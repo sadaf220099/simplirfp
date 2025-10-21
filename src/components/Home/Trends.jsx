@@ -8,19 +8,19 @@ import card3 from '../../assets/images/card3.png'
 function Trends() {
   const cardsdata = [
     {
-      image: card1,
+      icon: 'emojione-monotone:flag-for-canada',
       productname: 'Canadian Tenders',
       productdetail: '180 in last 24 hours',
       button: 'View More',
     },
     {
-      image: card2,
+      icon: 'game-icons:usa-flag',
       productname: 'US Tenders',
       productdetail: '1631 in last 24 hours',
       button: 'View More',
     },
     {
-      image: card3,
+      icon: 'fluent:inprivate-account-24-filled',
       productname: 'Private Constructions',
       productdetail: '47 in last 24 hours',
       button: 'View More',
@@ -40,11 +40,11 @@ function Trends() {
       </div>
 
      
-      <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-6 md:gap-10">
+      <div className="flex flex-col sm:flex-row flex-wrap justify-center  gap-6 md:gap-10">
         {cardsdata.map((card, index) => (
           <TrendCards
             key={index}
-            image={card.image}
+            icon={card.icon}
             productname={card.productname}
             productdetail={card.productdetail}
             button={card.button}

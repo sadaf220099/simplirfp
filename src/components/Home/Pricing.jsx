@@ -226,7 +226,7 @@ function Pricing() {
       </div>
 
       
-      <div className="flex justify-center items-center gap-6 mx-auto p-5">
+      <div className="flex justify-center items-center mb-10 gap-6 mx-auto p-5">
         <h2>Monthly</h2>
         <Switch />
         <h2>Annually</h2>
