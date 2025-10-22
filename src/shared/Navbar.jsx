@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Drawer } from "antd";
 import logo from "../assets/images/logo.png";
-import Button from "../components/Home/Button";
+import Button from "./Button";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="absolute top-1 right-0 left-0 z-50 shadow-md cursor-pointer">
+    <nav className="absolute top-7 right-0 left-0 z-50 cursor-pointer">
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <div className="flex justify-between items-center h-16">
           <div>

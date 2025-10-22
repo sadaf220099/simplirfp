@@ -2,7 +2,7 @@ import React from 'react';
 import line1 from '../../assets/images/line1.png';
 import features from '../../assets/images/features.png';
 import mask1 from '../../assets/images/mask1.png';
-import Button from './Button';
+import Button from '../../shared/Button';
 import Group21 from '../../assets/images/Group21.png'
 
 function Features() {
@@ -53,7 +53,7 @@ function Features() {
 
       
       <div
-  className="relative flex flex-col justify-center items-center mt-4 rounded-lg text-center sm:text-left"
+  className="relative z-1 flex flex-col justify-center items-center mt-20 rounded-lg text-center sm:text-left"
   style={{
     backgroundImage: `url(${mask1})`,
     backgroundPosition: 'center',

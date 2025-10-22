@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "../../assets/images/Image.png";
-import Button from "./Button";
+import Button from "../../shared/Button";
 
 export const NewsCards = ({ username, userdetail, image, buttonText, Images }) => {
     return (

@@ -1,10 +1,11 @@
 import React from 'react'
 import { Switch } from 'antd'
-import Button from './Button'
+import Button from '../../shared/Button'
 import { Icon } from '@iconify/react'
 import titleIcon from '../../assets/images/titleIcon.png'
 import titleIcon2 from '../../assets/images/titleIcon2.png'
 import titleIcon3 from '../../assets/images/titleIcon3.png'
+import bottom4 from '../../assets/images/bottom4.png'
 
 const PricingCard = ({ 
   title, 
@@ -213,36 +214,42 @@ function Pricing() {
   ]
 
   return (
-    <div className="bg-white p-5 w-full overflow-visible"> 
-      <div className="text-center">
-        <h1 className="font-bold text-[#170F49] text-3xl mb-2">
-          Choose the best pricing
-        </h1>
-        <p className="text-[#6F6C90]">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit dolor posuere vel
-          <br />
-          venenatis eu sit massa volutpat.
-        </p>
-      </div>
+    <div className="relative bg-white p-5 w-full overflow-visible">
+ 
+  <img
+    src={bottom4}
+    alt="Decoration"
+    className="absolute -top-20 left-0 z-0 "
+  />
 
-      
-      <div className="flex justify-center items-center mb-10 gap-6 mx-auto p-5">
-        <h2>Monthly</h2>
-        <Switch />
-        <h2>Annually</h2>
-      </div>
+  <div className="text-center">
+    <h1 className="font-bold text-[#170F49] text-3xl mb-2">
+      Choose the best pricing
+    </h1>
+    <p className="text-[#6F6C90]">
+      Lorem ipsum dolor sit amet consectetur adipiscing elit dolor posuere vel
+      <br />
+      venenatis eu sit massa volutpat.
+    </p>
+  </div>
 
-     
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 md:px-12 lg:px-20 mt-10 items-start">
-        {plans.map((plan, index) => (
-          <PricingCard key={index} {...plan} index={index} />
-        ))}
-      </div>
+  <div className="flex justify-center items-center py-10 gap-6 mx-auto p-5">
+    <h2>Monthly</h2>
+    <Switch />
+    <h2>Annually</h2>
+  </div>
 
-      <div className="font-bold flex justify-center p-10">
-        <h2>See Pricing Plan</h2>
-      </div>
-    </div>
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 md:px-12 lg:px-20 mt-10 items-start">
+    {plans.map((plan, index) => (
+      <PricingCard key={index} {...plan} index={index} />
+    ))}
+  </div>
+
+  <div className="font-bold flex justify-center p-10">
+    <h2>See Pricing Plan</h2>
+  </div>
+</div>
+
   )
 }
 

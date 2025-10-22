@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './Button'
+import Button from '../../shared/Button'
 import { Icon } from '@iconify/react'
 
 export const TrendCards = ({ productname, productdetail, icon, button }) => {

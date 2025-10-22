@@ -49,7 +49,7 @@ export const News = () => {
         venenatis eu sit massa volutpat.
       </h1>
 
-      <div className="p-4 sm:p-10 flex flex-col md:flex-row mx-auto gap-8 justify-center items-center">
+      <div className="p-4 sm:p-10  py-10 flex flex-col md:flex-row mx-auto gap-8 justify-center items-center">
         {carddata.map((newscard, index) => (
           <NewsCards
             key={index}
