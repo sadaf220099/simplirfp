@@ -27,9 +27,7 @@ function Features() {
         <h1 className="font-bold text-[#32C4C0] text-xl sm:text-2xl">
           Benefits
         </h1>
-      </div>
-
-   
+      </div>   
       <div className="flex flex-col cursor-pointer lg:flex-row justify-evenly items-center mt-10 gap-10">
         
         <div className="flex flex-col sm:flex-row items-start">

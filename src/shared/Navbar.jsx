@@ -10,18 +10,18 @@ export const Navbar = () => {
     <nav className="absolute top-7 right-0 left-0 z-50 cursor-pointer">
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24">
         <div className="flex justify-between items-center h-16">
-          <div>
+          <a href="/" className="">
             <img src={logo} alt="Logo" width={271} height={63} />
-          </div>
+          </a>
 
           <div className="flex justify-between items-center gap-20 h-16">
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8 lg:space-x-12 xl:space-x-16">
               {[
-                { label: "Features", href: "#about" },
-                { label: "Pricing", href: "#features" },
-                { label: "Why Us", href: "#how" },
-                { label: "Blogs", href: "#contact" },
+                { label: "Features", href: "/features" },
+                { label: "Pricing", href: "/pricing" },
+                { label: "Why Us", href: "/why-Us" },
+                { label: "Blogs", href: "/blogs" },
               ].map((link) => (
                 <a
                   key={link.label}

@@ -6,7 +6,7 @@ function Customers() {
   return (
     <section>
       <div
-        className="relative w-full mt-[286px] bg-cover bg-center cursor-pointer bg-no-repeat overflow-hidden py-16 px-6 sm:px-10 lg:px-20"
+        className="relative w-full mt-[286px] bg-cover bg-center  bg-no-repeat overflow-hidden py-16 px-6 sm:px-10 lg:px-20"
         style={{ backgroundImage: `url(${section4})` }}
       >
 
