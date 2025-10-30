@@ -5,7 +5,7 @@ import Herosection from '../components/Blogs/Herosection'
 import Secure from '../components/Blogs/Secure'
 import Team from '../components/Blogs/Team'
 import Footer from '../shared/Footer'
-import Contract from '../components/Blogs/contract'
+import Contract from '../components/Blogs/contract.jsx'
 import Read from '../components/Blogs/Read'
 
 function Blogs() {
