@@ -1,6 +1,6 @@
 import React from 'react'
 import secure1 from '../../assets/images/secure1.png'
-import Secure2 from '../../assets/images/Secure2.png'
+import Secure2 from '../../assets/images/secure2.png'
 import Button from '../../shared/Button'
 import { Flex, Input } from 'antd';
 import closeButton from '../../assets/images/closeButton.png'
