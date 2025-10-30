@@ -1,23 +1,23 @@
 import React from 'react'
 import { ContractCards } from './contractCards'
-import img1 from '../../assets/images/img1.png'
-import img2 from '../../assets/images/img2.png'
-import img3 from '../../assets/images/img3.png'
+import Img1 from '../../assets/images/img1.png'
+import Img2 from '../../assets/images/img2.png'
+import Img3 from '../../assets/images/img3.png'
 
 function Contract() {
     const cardsdata = [
         {
-            Image: img1,
+            Image: Img1,
             productname: 'Optimize Procurement',
             productdetail: 'Concrete and effective result ',
         },
         {
-            Image: img3,
+            Image: Img3,
             productname: 'Improve Efficiency',
             productdetail: 'Concrete and effective result ',
         },
         {
-            Image: img2,
+            Image: Img2,
             productname: 'Optimize Procurement',
             productdetail: 'Concrete and effective result ',
         },
