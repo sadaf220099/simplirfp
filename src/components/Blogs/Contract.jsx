@@ -30,7 +30,7 @@ function Contract() {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 1920 1582"
                 fill="none"
-                className="w-full h-auto"
+                className="w-full h-auto hidden md:block"
             >
                 <path
                     d="M1050 421C1607.2 447.8 1862.5 151.5 1920.5 0V1022C1761 1133 1593.6 1289 1050 1235C506.4 1181 123.5 1502.83 0 1581.5V634.5C117.833 552.167 492.8 394.2 1050 421Z"
@@ -52,7 +52,7 @@ function Contract() {
             </svg>
 
             {/* Content */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 sm:px-8 md:px-16">
+            <div className="lg:absolute inset-0 flex flex-col items-center justify-center text-center px-4 sm:px-8 md:px-16">
                 <h1 className="text-white font-bold text-2xl sm:text-3xl md:text-4xl leading-snug">
                     The most complete source of<br className="hidden sm:block" />
                     contract opportunities for suppliers in Canada.

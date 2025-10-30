@@ -4,7 +4,7 @@ import read from '../../assets/images/read.png'
 
 function Read() {
   return (
-    <div className="w-full bg-white px-4 -mt-30 sm:px-8 md:px-12 lg:px-20 xl:px-32 py-10 pb-[229px] flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
+    <div className="w-full bg-white px-4 md:-mt-30 sm:px-8 md:px-12 lg:px-20 xl:px-32 py-10 pb-[229px] flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
       
       {/* LEFT TEXT SECTION */}
       <div className="w-full lg:w-1/2 max-w-xl  text-center lg:text-left space-y-8">

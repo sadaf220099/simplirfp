@@ -1,4 +1,7 @@
 @import "tailwindcss";
+*{
+    font-family: 'Inter', 'Poppins', sans-serif;
+}
 
 .btn-primary {
   background-color: #CDE4DC;

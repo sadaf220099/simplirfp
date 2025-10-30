@@ -6,20 +6,20 @@ function Footer() {
   return (
     <div className="bg-footer w-full py-10 px-6 md:px-16 overflow-hidden">
      
-      <div className='max-w-7xl mx-auto'>
+      <div className=' mx-auto'>
         <img src={logo} alt="Logo" className="mx-auto md:mx-0 mb-4 w-28 md:w-32" />
-        <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-10 text-white text-center md:text-left">
+        <div className="flex flex-col sm:flex-row justify-between items-center md:items-start gap-10 text-white text-center md:text-left">
           <div className="max-w-sm">
-            <h2 className="text-sm leading-relaxed">
+            <h2 className="text-lg leading-relaxed">
               Lorem ipsum dolor sit amet consectetur. A vitae posuere
               libero condimentum. Ipsum pulvinar pretium lacus sed volutpat.
               Montes sit odio amet lacus viverra. Tellus rhoncus tristique arcu dolor.
             </h2>
           </div>
 
-          <div className="flex flex-wrap justify-center md:justify-between gap-8 md:gap-16">
-            <div>
-              <p>About Us</p>
+          <div className="flex  justify-center sm:justify-between gap-8 md:gap-16">
+            <div className='!text-base  font-[poppins]  '>
+              <p  className='!font-[poppins]'>About Us</p>
               <p>Pricing</p>
               <p>Features</p>
             </div>
