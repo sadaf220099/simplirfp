@@ -1,6 +1,6 @@
 import React from 'react'
 import line2 from '../../assets/images/line2.png'
-import  TeamCard  from './teamCard.jsx'
+import TeamCard from './TeamCard'
 import Sociallcon from '../../assets/images/Social.png'
 import img1 from '../../assets/images/Group6.png'
 import img2 from '../../assets/images/Group9.png'
@@ -57,6 +57,7 @@ function Team() {
             </div>
             <div className="flex flex-col sm:flex-row flex-wrap justify-center  gap-3 md:gap-10">
                 {cardsdata.map((card, index) => (
+                  
                     <TeamCard
                         key={index}
                         Image={card.Image}
@@ -65,6 +66,7 @@ function Team() {
                         producttitle={card.producttitle}
                         image={card.image}
                     />
+                  
                 ))}
             </div>
             <div
