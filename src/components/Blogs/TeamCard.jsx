@@ -1,6 +1,6 @@
 import React from 'react'
 import { Icon } from '@iconify/react'
-import vector6 from '../../assets/images/vector6.png'
+import vector6 from '../../assets/images/Vector6.png'
 export const TeamCard = ({ productname,producttitle, productdetail, Image, image }) => {
     return (
         <div className="w-[310px] h-[447px]  mt-24 border-2 border-[#DCDCDC] bg-[#FFFFFF2E]  shadow-lg group cursor-pointer">
