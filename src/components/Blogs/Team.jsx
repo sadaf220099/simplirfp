@@ -55,7 +55,7 @@ function Team() {
                     venenatis eu sit massa volutpat.
                 </h1>
             </div>
-            <div className="flex flex-col sm:flex-row flex-wrap justify-center  gap-3 md:gap-10">
+            <div className=" grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center  gap-3 md:gap-10">
                 {cardsdata.map((card, index) => (
                   
                     <TeamCard

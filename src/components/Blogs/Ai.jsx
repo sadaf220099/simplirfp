@@ -22,7 +22,7 @@ function Ai() {
                 <div className="flex flex-col lg:flex-row gap-30 xl:gap-20 z-10">
                     {/* Left Section */}
                     <div className="w-full lg:w-1/2">
-                        <img src={building} alt="Building" className='w-[853px] h-[727px]' />
+                        <img src={building} alt="Building" className='md:w-[853px] md:h-[727px]' />
                         <div className='flex flex-wrap gap-2 py-3'>
                             <Button text="Construction" className="btn-Ai w-[117px] h-[36px]" />
                             <Button text="Building" className="btn-Ai w-[84px] h-[36px]" />

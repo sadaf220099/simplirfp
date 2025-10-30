@@ -17,9 +17,9 @@ function Footer() {
             </h2>
           </div>
 
-          <div className="flex  justify-center sm:justify-between gap-8 md:gap-16">
-            <div className='!text-base  font-[poppins]  '>
-              <p  className='!font-[poppins]'>About Us</p>
+          <div className="flex  justify-center sm:justify-between gap-8 md:gap-16 !font-[poppins]">
+            <div className='!text-base    '>
+              <p  className=''>About Us</p>
               <p>Pricing</p>
               <p>Features</p>
             </div>

@@ -29,34 +29,28 @@ function Secure() {
     Sign up to our newsletter to receive the latest updates
   </p>
 
-  {/* Input field */}
-  <div className="flex justify-center mt-2">
-    <Input
-      placeholder="Enter your email"
-      className="w-full sm:w-[80%] mx-auto py-2 sm:py-3 text-sm sm:text-base"
-    />
-  </div>
+ 
+<div className=' flex flex-col gap-y-4'>
+  <Input
+    placeholder="Enter your email"
+    className=" mx-auto  h-[40px] py-2 sm:py-3 text-sm sm:text-base"
+  />
 
-  {/* Button */}
-  <div className="flex justify-center mt-4">
-    <Button
-      text="SIGN UP"
-      icon="material-symbols:mail-outline-rounded"
-      width="24"
-      height="24"
-      className="btn-tertiary w-full sm:w-[400px] md:w-[541px] h-[45px] sm:h-[47px] py-3 sm:py-4 mx-auto text-sm sm:text-base"
-    />
-  </div>
+  <Button
+    text="SIGN UP"
+    icon="material-symbols:mail-outline-rounded"
+    width="26"
+    height="24"
+    className="btn-tertiar w-full sm:h-[47px] py-3 font-semibold sm:py-4 mx-auto text-sm sm:text-base"
+  />
 
-  {/* Close button */}
+</div>
   <img
     src={closeButton}
     alt="Close"
-    className="absolute -top-2 sm:-top-3 -right-2 sm:-right-3 w-7 sm:w-8 h-7 sm:h-8 z-50 cursor-pointer"
+    className="absolute -top-2 sm:-top-3 -right-2 sm:-right-3 w-9 sm:w-10 h-9 sm:h-10 z-50 cursor-pointer"
   />
 </div>
-
-
         </div>
         <img src={Secure2} alt="" />
       </div>
