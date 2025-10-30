@@ -1,6 +1,6 @@
 import React from 'react'
 import line2 from '../../assets/images/line2.png'
-import { TeamCard } from './teamCard.jsx'
+import  TeamCard  from './teamCard.jsx'
 import Sociallcon from '../../assets/images/Social.png'
 import img1 from '../../assets/images/Group6.png'
 import img2 from '../../assets/images/Group9.png'
